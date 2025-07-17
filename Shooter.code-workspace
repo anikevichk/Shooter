@@ -37,7 +37,7 @@
 					"Shooter",
 					"Win64",
 					"Debug",
-					"C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter\\Shooter.uproject",
+					"C:\\Unreal Projects\\Shooter\\Shooter.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -54,7 +54,7 @@
 					"Shooter",
 					"Win64",
 					"Debug",
-					"C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter\\Shooter.uproject",
+					"C:\\Unreal Projects\\Shooter\\Shooter.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -74,7 +74,7 @@
 					"Shooter",
 					"Win64",
 					"Debug",
-					"C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter\\Shooter.uproject",
+					"C:\\Unreal Projects\\Shooter\\Shooter.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -91,7 +91,7 @@
 					"Shooter",
 					"Win64",
 					"DebugGame",
-					"C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter\\Shooter.uproject",
+					"C:\\Unreal Projects\\Shooter\\Shooter.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -108,7 +108,7 @@
 					"Shooter",
 					"Win64",
 					"DebugGame",
-					"C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter\\Shooter.uproject",
+					"C:\\Unreal Projects\\Shooter\\Shooter.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -128,7 +128,7 @@
 					"Shooter",
 					"Win64",
 					"DebugGame",
-					"C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter\\Shooter.uproject",
+					"C:\\Unreal Projects\\Shooter\\Shooter.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -145,7 +145,7 @@
 					"Shooter",
 					"Win64",
 					"Development",
-					"C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter\\Shooter.uproject",
+					"C:\\Unreal Projects\\Shooter\\Shooter.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -162,7 +162,7 @@
 					"Shooter",
 					"Win64",
 					"Development",
-					"C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter\\Shooter.uproject",
+					"C:\\Unreal Projects\\Shooter\\Shooter.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -182,7 +182,7 @@
 					"Shooter",
 					"Win64",
 					"Development",
-					"C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter\\Shooter.uproject",
+					"C:\\Unreal Projects\\Shooter\\Shooter.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -199,7 +199,7 @@
 					"Shooter",
 					"Win64",
 					"Test",
-					"C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter\\Shooter.uproject",
+					"C:\\Unreal Projects\\Shooter\\Shooter.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -216,7 +216,7 @@
 					"Shooter",
 					"Win64",
 					"Test",
-					"C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter\\Shooter.uproject",
+					"C:\\Unreal Projects\\Shooter\\Shooter.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -236,7 +236,7 @@
 					"Shooter",
 					"Win64",
 					"Test",
-					"C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter\\Shooter.uproject",
+					"C:\\Unreal Projects\\Shooter\\Shooter.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -253,7 +253,7 @@
 					"Shooter",
 					"Win64",
 					"Shipping",
-					"C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter\\Shooter.uproject",
+					"C:\\Unreal Projects\\Shooter\\Shooter.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -270,7 +270,7 @@
 					"Shooter",
 					"Win64",
 					"Shipping",
-					"C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter\\Shooter.uproject",
+					"C:\\Unreal Projects\\Shooter\\Shooter.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -290,7 +290,7 @@
 					"Shooter",
 					"Win64",
 					"Shipping",
-					"C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter\\Shooter.uproject",
+					"C:\\Unreal Projects\\Shooter\\Shooter.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -307,7 +307,7 @@
 					"ShooterEditor",
 					"Win64",
 					"Debug",
-					"C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter\\Shooter.uproject",
+					"C:\\Unreal Projects\\Shooter\\Shooter.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -324,7 +324,7 @@
 					"ShooterEditor",
 					"Win64",
 					"Debug",
-					"C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter\\Shooter.uproject",
+					"C:\\Unreal Projects\\Shooter\\Shooter.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -344,7 +344,7 @@
 					"ShooterEditor",
 					"Win64",
 					"Debug",
-					"C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter\\Shooter.uproject",
+					"C:\\Unreal Projects\\Shooter\\Shooter.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -361,7 +361,7 @@
 					"ShooterEditor",
 					"Win64",
 					"DebugGame",
-					"C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter\\Shooter.uproject",
+					"C:\\Unreal Projects\\Shooter\\Shooter.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -378,7 +378,7 @@
 					"ShooterEditor",
 					"Win64",
 					"DebugGame",
-					"C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter\\Shooter.uproject",
+					"C:\\Unreal Projects\\Shooter\\Shooter.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -398,7 +398,7 @@
 					"ShooterEditor",
 					"Win64",
 					"DebugGame",
-					"C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter\\Shooter.uproject",
+					"C:\\Unreal Projects\\Shooter\\Shooter.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -415,7 +415,7 @@
 					"ShooterEditor",
 					"Win64",
 					"Development",
-					"C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter\\Shooter.uproject",
+					"C:\\Unreal Projects\\Shooter\\Shooter.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -432,7 +432,7 @@
 					"ShooterEditor",
 					"Win64",
 					"Development",
-					"C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter\\Shooter.uproject",
+					"C:\\Unreal Projects\\Shooter\\Shooter.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -452,7 +452,7 @@
 					"ShooterEditor",
 					"Win64",
 					"Development",
-					"C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter\\Shooter.uproject",
+					"C:\\Unreal Projects\\Shooter\\Shooter.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -469,7 +469,7 @@
 			{
 				"name": "Launch Shooter (Debug)",
 				"request": "launch",
-				"program": "C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+				"program": "C:\\Unreal Projects\\Shooter\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
 				"preLaunchTask": "Shooter Win64 Debug Build",
 				"args": [
 				],
@@ -480,14 +480,14 @@
 				"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
 				"sourceFileMap": {
 					"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.6",
-					"Z:\\UEVFS\\Shooter": "C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter",
+					"Z:\\UEVFS\\Shooter": "C:\\Unreal Projects\\Shooter",
 					"Z:\\UEVFS\\Root": "C:\\Program Files\\Epic Games\\UE_5.6"
 				}
 			},
 			{
 				"name": "Launch Shooter (DebugGame)",
 				"request": "launch",
-				"program": "C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+				"program": "C:\\Unreal Projects\\Shooter\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
 				"preLaunchTask": "Shooter Win64 DebugGame Build",
 				"args": [
 				],
@@ -498,14 +498,14 @@
 				"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
 				"sourceFileMap": {
 					"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.6",
-					"Z:\\UEVFS\\Shooter": "C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter",
+					"Z:\\UEVFS\\Shooter": "C:\\Unreal Projects\\Shooter",
 					"Z:\\UEVFS\\Root": "C:\\Program Files\\Epic Games\\UE_5.6"
 				}
 			},
 			{
 				"name": "Launch Shooter (Development)",
 				"request": "launch",
-				"program": "C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter\\Binaries\\Win64\\UnrealGame.exe",
+				"program": "C:\\Unreal Projects\\Shooter\\Binaries\\Win64\\UnrealGame.exe",
 				"preLaunchTask": "Shooter Win64 Development Build",
 				"args": [
 				],
@@ -516,14 +516,14 @@
 				"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
 				"sourceFileMap": {
 					"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.6",
-					"Z:\\UEVFS\\Shooter": "C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter",
+					"Z:\\UEVFS\\Shooter": "C:\\Unreal Projects\\Shooter",
 					"Z:\\UEVFS\\Root": "C:\\Program Files\\Epic Games\\UE_5.6"
 				}
 			},
 			{
 				"name": "Launch Shooter (Test)",
 				"request": "launch",
-				"program": "C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+				"program": "C:\\Unreal Projects\\Shooter\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
 				"preLaunchTask": "Shooter Win64 Test Build",
 				"args": [
 				],
@@ -534,14 +534,14 @@
 				"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
 				"sourceFileMap": {
 					"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.6",
-					"Z:\\UEVFS\\Shooter": "C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter",
+					"Z:\\UEVFS\\Shooter": "C:\\Unreal Projects\\Shooter",
 					"Z:\\UEVFS\\Root": "C:\\Program Files\\Epic Games\\UE_5.6"
 				}
 			},
 			{
 				"name": "Launch Shooter (Shipping)",
 				"request": "launch",
-				"program": "C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+				"program": "C:\\Unreal Projects\\Shooter\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
 				"preLaunchTask": "Shooter Win64 Shipping Build",
 				"args": [
 				],
@@ -552,7 +552,7 @@
 				"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
 				"sourceFileMap": {
 					"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.6",
-					"Z:\\UEVFS\\Shooter": "C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter",
+					"Z:\\UEVFS\\Shooter": "C:\\Unreal Projects\\Shooter",
 					"Z:\\UEVFS\\Root": "C:\\Program Files\\Epic Games\\UE_5.6"
 				}
 			},
@@ -562,7 +562,7 @@
 				"program": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
 				"preLaunchTask": "ShooterEditor Win64 Debug Build",
 				"args": [
-					"C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter\\Shooter.uproject"
+					"C:\\Unreal Projects\\Shooter\\Shooter.uproject"
 				],
 				"cwd": "C:\\Program Files\\Epic Games\\UE_5.6",
 				"stopAtEntry": false,
@@ -571,7 +571,7 @@
 				"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
 				"sourceFileMap": {
 					"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.6",
-					"Z:\\UEVFS\\Shooter": "C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter",
+					"Z:\\UEVFS\\Shooter": "C:\\Unreal Projects\\Shooter",
 					"Z:\\UEVFS\\Root": "C:\\Program Files\\Epic Games\\UE_5.6"
 				}
 			},
@@ -581,7 +581,7 @@
 				"program": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
 				"preLaunchTask": "ShooterEditor Win64 DebugGame Build",
 				"args": [
-					"C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter\\Shooter.uproject"
+					"C:\\Unreal Projects\\Shooter\\Shooter.uproject"
 				],
 				"cwd": "C:\\Program Files\\Epic Games\\UE_5.6",
 				"stopAtEntry": false,
@@ -590,7 +590,7 @@
 				"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
 				"sourceFileMap": {
 					"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.6",
-					"Z:\\UEVFS\\Shooter": "C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter",
+					"Z:\\UEVFS\\Shooter": "C:\\Unreal Projects\\Shooter",
 					"Z:\\UEVFS\\Root": "C:\\Program Files\\Epic Games\\UE_5.6"
 				}
 			},
@@ -600,7 +600,7 @@
 				"program": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
 				"preLaunchTask": "ShooterEditor Win64 Development Build",
 				"args": [
-					"C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter\\Shooter.uproject"
+					"C:\\Unreal Projects\\Shooter\\Shooter.uproject"
 				],
 				"cwd": "C:\\Program Files\\Epic Games\\UE_5.6",
 				"stopAtEntry": false,
@@ -609,7 +609,7 @@
 				"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
 				"sourceFileMap": {
 					"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.6",
-					"Z:\\UEVFS\\Shooter": "C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter",
+					"Z:\\UEVFS\\Shooter": "C:\\Unreal Projects\\Shooter",
 					"Z:\\UEVFS\\Root": "C:\\Program Files\\Epic Games\\UE_5.6"
 				}
 			},
@@ -622,7 +622,7 @@
 				"args": [
 					"-projectfiles",
 					"-vscode",
-					"-project=C:\\Users\\Kate\\Documents\\Unreal Projects\\Shooter\\Shooter.uproject",
+					"-project=C:\\Unreal Projects\\Shooter\\Shooter.uproject",
 					"-game",
 					"-engine",
 					"-dotnet"
