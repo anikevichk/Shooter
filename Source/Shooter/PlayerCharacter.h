@@ -31,6 +31,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Weapon")
 	TSubclassOf<AGun> GunClass;
 
-	UPROPERTY()
+	UPROPERTY(BlueprintReadWrite)
 	AGun* Gun;
+
+	UFUNCTION(BlueprintCallable)
+	void Shoot();
 };

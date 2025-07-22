@@ -53,3 +53,14 @@ void APlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 
 }
 
+void APlayerCharacter::Shoot()
+{
+    if (Gun)
+    {
+        Gun->PullTrigger();
+    }
+    else
+    {
+        UE_LOG(LogTemp, Warning, TEXT("Gun is null"));
+    }
+}
