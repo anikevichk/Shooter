@@ -20,12 +20,23 @@ void APlayerCharacter::BeginPlay()
 	if (GunClass)
 	{
 		Gun = GetWorld()->SpawnActor<AGun>(GunClass);
+		if (Gun)
+		{
+			GetMesh()->HideBoneByName(TEXT("weapon_r"), EPhysBodyOp::PBO_None);
+			Gun->AttachToComponent(GetMesh(), FAttachmentTransformRules::KeepRelativeTransform, TEXT("WeaponSocket"));
+			Gun->SetOwner(this);
+		}
+		else
+		{
+			UE_LOG(LogTemp, Error, TEXT("Gun could not be spawned."));
+		}
 	}
 	else
 	{
-		UE_LOG(LogTemp, Warning, TEXT("GunClass is not set!"));
+		UE_LOG(LogTemp, Error, TEXT("GunClass is not set on %s"), *GetName());
 	}
 }
+
 
 
 // Called every frame
