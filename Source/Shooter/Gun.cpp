@@ -60,6 +60,7 @@ void AGun::PullTrigger()
 		AActor* HitedActor = Hit.GetActor();
 		if(HitedActor == nullptr) return;
 		FPointDamageEvent DamageEvent{Damage, Hit, Direction, nullptr};
+		if (HitedActor == GetOwner()) return;
 		HitedActor->TakeDamage(Damage, DamageEvent, OwnerController, this);
 
 
