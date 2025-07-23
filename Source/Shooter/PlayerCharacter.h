@@ -36,6 +36,9 @@ public:
 	UPROPERTY(BlueprintReadWrite)
 	AGun* Gun;
 
+	UFUNCTION(BlueprintPure)
+	bool IsDead() const;
+
 private:
 
 	UPROPERTY(EditDefaultsOnly)
