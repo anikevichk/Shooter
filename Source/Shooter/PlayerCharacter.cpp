@@ -17,6 +17,8 @@ void APlayerCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 
+	CurrentHealth = MaxHealth;
+
 	if (GunClass)
 	{
 		Gun = GetWorld()->SpawnActor<AGun>(GunClass);
@@ -63,4 +65,16 @@ void APlayerCharacter::Shoot()
     {
         UE_LOG(LogTemp, Warning, TEXT("Gun is null"));
     }
+}
+
+float APlayerCharacter::TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser){
+	float DamageToApply = Super::TakeDamage(DamageAmount, DamageEvent, EventInstigator, DamageCauser);
+
+	DamageToApply = FMath::Min(CurrentHealth, DamageToApply);
+	CurrentHealth -= DamageToApply;
+	UE_LOG(LogTemp, Warning, TEXT("Current health: %f"), CurrentHealth);
+
+	UE_LOG(LogTemp, Warning, TEXT("Damage: %f"), DamageToApply);
+
+	return DamageToApply;
 }

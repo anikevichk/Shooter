@@ -5,6 +5,8 @@
 #include "Components\SkeletalMeshComponent.h"
 #include "Kismet\GameplayStatics.h"
 #include "DrawDebugHelpers.h"
+#include "Engine/DamageEvents.h"
+
 
 // Sets default values
 AGun::AGun()
@@ -55,7 +57,12 @@ void AGun::PullTrigger()
 		FVector Direction = -Rotation.Vector();
 		UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), HitEffect, Hit.Location, Direction.Rotation());
 
+		AActor* HitedActor = Hit.GetActor();
+		if(HitedActor == nullptr) return;
+		FPointDamageEvent DamageEvent{Damage, Hit, Direction, nullptr};
+		HitedActor->TakeDamage(Damage, DamageEvent, OwnerController, this);
+
+
 	}
 
 }
-
