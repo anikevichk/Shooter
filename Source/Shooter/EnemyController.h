@@ -18,5 +18,9 @@ protected:
 
 public:	
 	virtual void Tick(float DeltaTime) override;
-	float Radius = 200;
+
+	UPROPERTY(EditAnywhere)
+	class UBehaviorTree* AIBehavior; 
+
+	
 };
