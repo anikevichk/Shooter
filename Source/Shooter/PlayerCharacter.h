@@ -39,6 +39,9 @@ public:
 	UFUNCTION(BlueprintPure)
 	bool IsDead() const;
 
+	UFUNCTION(BlueprintCallable)
+	void Shoot();
+
 private:
 
 	UPROPERTY(EditDefaultsOnly)
@@ -46,7 +49,4 @@ private:
 
 	UPROPERTY(VisibleAnywhere)
 	float CurrentHealth;
-
-	UFUNCTION(BlueprintCallable)
-	void Shoot();
 };
