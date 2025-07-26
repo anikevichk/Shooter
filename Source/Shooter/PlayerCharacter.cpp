@@ -3,6 +3,7 @@
 
 #include "PlayerCharacter.h"
 #include "Gun.h"
+#include "Components/CapsuleComponent.h"
 
 // Sets default values
 APlayerCharacter::APlayerCharacter()
@@ -57,12 +58,10 @@ void APlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 
 void APlayerCharacter::Shoot()
 {
-    if (Gun)
-    {
+    if (Gun){
         Gun->PullTrigger();
     }
-    else
-    {
+    else{
         UE_LOG(LogTemp, Warning, TEXT("Gun is null"));
     }
 }
@@ -75,6 +74,12 @@ float APlayerCharacter::TakeDamage(float DamageAmount, struct FDamageEvent const
 	UE_LOG(LogTemp, Warning, TEXT("Current health: %f"), CurrentHealth);
 
 	UE_LOG(LogTemp, Warning, TEXT("Damage: %f"), DamageToApply);
+
+	if (IsDead()){
+		DetachFromControllerPendingDestroy();
+		GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	}
+
 
 	return DamageToApply;
 }
