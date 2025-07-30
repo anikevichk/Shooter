@@ -76,11 +76,12 @@ float APlayerCharacter::TakeDamage(float DamageAmount, struct FDamageEvent const
 	UE_LOG(LogTemp, Warning, TEXT("Damage: %f"), DamageToApply);
 
 	if (IsDead()){
+
+		AShooterGameModeBase* GameMode =GetWorld()->GetAuthGameMode<AShooterGameModeBase>();
+		if (GameMode!=nullptr) GameMode->PawnKilled(this);
+
 		DetachFromControllerPendingDestroy();
 		GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
-		AShooterGameModeBase* GameMode =GetWorld()->GetAuthGameMode<AShooterGameModeBase>();
-
-		if (GameMode!=nullptr) GameMode->PawnKilled(this);
 		
 	}
 
