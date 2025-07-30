@@ -5,6 +5,7 @@
 #include "Kismet\GameplayStatics.h"
 #include "PlayerCharacter.h"
 #include "BehaviorTree/BlackboardComponent.h"
+#include "PlayerCharacter.h"
 
 void AEnemyController::BeginPlay()
 {
@@ -21,4 +22,15 @@ void AEnemyController::BeginPlay()
 void AEnemyController::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+}
+
+
+bool AEnemyController::IsDead() const {
+
+    APlayerCharacter* ControlledCharacter = Cast<APlayerCharacter>(GetPawn());
+
+    if (ControlledCharacter != nullptr) return ControlledCharacter->IsDead();
+    
+    return true;
+
 }

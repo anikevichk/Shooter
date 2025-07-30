@@ -23,6 +23,9 @@ private:
 	TSubclassOf<class UUserWidget> LoseSreenClass;
 
 	UPROPERTY(EditAnywhere)
+	TSubclassOf<class UUserWidget> WinSreenClass;
+
+	UPROPERTY(EditAnywhere)
 	float RestartTime  = 5;
 
 	FTimerHandle TimerHandle;
