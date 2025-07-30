@@ -36,30 +36,42 @@ void AGun::Tick(float DeltaTime)
 
 }
 
-void AGun::PullTrigger()
-{
-	UGameplayStatics::SpawnEmitterAttached(MuzzleFlash, Mesh, TEXT("MuzzleFlashSocket"));
-
+AController* AGun::GetOwnerController() const{
 	APawn* OwnerPawn = Cast<APawn>(GetOwner());
 	if(OwnerPawn == nullptr) return;
 
-	AController* OwnerController = OwnerPawn->GetController();
-	if(OwnerController == nullptr) return;
+	return OwnerPawn->GetController();
+}
+
+
+bool AGun::SetUpGunTrace(FHitResult& Hit, FVector& Direction){
+
+	AController *OwnerController = GetOwnerController();
+	if(OwnerController == nullptr) return false;
 
 	FVector Location;
 	FRotator Rotation;
-	FHitResult Hit;
 	FCollisionQueryParams Params;
-
-	OwnerController->GetPlayerViewPoint(Location, Rotation);
+	Direction = -Rotation.Vector();
 	FVector End = Rotation.Vector()*MaxRange + Location;
 
 	Params.AddIgnoredActor(this);
 	Params.AddIgnoredActor(GetOwner());
 
-	bool hit = GetWorld()->LineTraceSingleByChannel(Hit, Location, End, ECollisionChannel::ECC_GameTraceChannel1, Params);
+	return GetWorld()->LineTraceSingleByChannel(Hit, Location, End, ECollisionChannel::ECC_GameTraceChannel1, Params);
+}
+
+void AGun::PullTrigger()
+{
+	UGameplayStatics::SpawnEmitterAttached(MuzzleFlash, Mesh, TEXT("MuzzleFlashSocket"));
+
+	FHitResult Hit;
+	FVector Direction;
+	
+	AController *OwnerController = GetOwnerController();
+	bool hit = SetUpGunTrace(Hit, Direction);
+
 	if(hit){
-		FVector Direction = -Rotation.Vector();
 		UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), HitEffect, Hit.Location, Direction.Rotation());
 
 		AActor* HitedActor = Hit.GetActor();
