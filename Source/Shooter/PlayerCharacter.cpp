@@ -92,3 +92,8 @@ float APlayerCharacter::TakeDamage(float DamageAmount, struct FDamageEvent const
 bool APlayerCharacter::IsDead() const {
 	return CurrentHealth <= 0;
 }
+
+float APlayerCharacter::GetHealthPercent() const
+{
+    return CurrentHealth/MaxHealth;
+}
