@@ -5,6 +5,9 @@
 #include "Gun.h"
 #include "Components/CapsuleComponent.h"
 #include "ShooterGameModeBase.h"
+#include "HealthPotion.h"
+#include "EngineUtils.h"  
+
 // Sets default values
 APlayerCharacter::APlayerCharacter()
 {
@@ -40,14 +43,25 @@ void APlayerCharacter::BeginPlay()
 	}
 }
 
-
-
-// Called every frame
 void APlayerCharacter::Tick(float DeltaTime)
 {
-	Super::Tick(DeltaTime);
+    Super::Tick(DeltaTime);
 
+    float ClosestDistance = FLT_MAX;
+    NearbyHealthPickup = nullptr;
+
+    for (TActorIterator<AHealthPotion> It(GetWorld()); It; ++It)
+    {
+        AHealthPotion* Potion = *It;
+        float Dist = FVector::Dist(Potion->GetActorLocation(), GetActorLocation());
+        if (Dist <= Potion->PickupDistance && Dist < ClosestDistance)
+        {
+            ClosestDistance = Dist;
+            NearbyHealthPickup = Potion;
+        }
+    }
 }
+
 
 // Called to bind functionality to input
 void APlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
@@ -65,6 +79,7 @@ void APlayerCharacter::Shoot()
         UE_LOG(LogTemp, Warning, TEXT("Gun is null"));
     }
 }
+
 
 float APlayerCharacter::TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser){
 	float DamageToApply = Super::TakeDamage(DamageAmount, DamageEvent, EventInstigator, DamageCauser);
@@ -96,4 +111,21 @@ bool APlayerCharacter::IsDead() const {
 float APlayerCharacter::GetHealthPercent() const
 {
     return CurrentHealth/MaxHealth;
+}
+
+void APlayerCharacter::PickUp()
+{
+	if (NearbyHealthPickup){
+        NearbyHealthPickup->Pickup();
+		UE_LOG(LogTemp, Warning, TEXT("Trying to pickup"));
+    }
+}
+
+void APlayerCharacter::AddHealth(float Amount)
+{
+    CurrentHealth += Amount;
+	if (CurrentHealth > MaxHealth)
+    {
+        CurrentHealth = MaxHealth;  
+    }
 }

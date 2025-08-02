@@ -45,6 +45,12 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void Shoot();
 
+	UFUNCTION(BlueprintCallable)
+	void PickUp();
+
+	UFUNCTION(BlueprintCallable)
+	void AddHealth(float Amount);
+
 private:
 
 	UPROPERTY(EditDefaultsOnly)
@@ -52,4 +58,6 @@ private:
 
 	UPROPERTY(VisibleAnywhere)
 	float CurrentHealth;
+
+	class AHealthPotion* NearbyHealthPickup;
 };
